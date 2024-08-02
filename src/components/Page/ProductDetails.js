@@ -13,6 +13,7 @@ export const ProductDetails = () => {
 const   {productsId} = useParams()
 
 const getDetails = async()=>{
+    
   console.log(getDetails)
  try {
   const productDetails  =  await axios({
